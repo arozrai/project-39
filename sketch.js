@@ -31,7 +31,7 @@ function setup() {
   
   monkey=createSprite(50,200,50,50)
   monkey.addAnimation("RUN",monkey_running)
-  monkey.scale=0.1
+  monkey.scale=0.2
   monkey.velocityX=10
   
   FoodGroup=new Group()
